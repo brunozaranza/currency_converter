@@ -58,11 +58,7 @@ class _CurrencySelectorViewState extends State<CurrencySelectorView>
   }
 
   Future<Currency> pushCurrencySelectorPage() async {
-    Currency currency =
-        await Navigator.push(context, MaterialPageRoute(builder: (ctx) {
-      return CurrencySelectorPage();
-    }));
-
+    var currency = await Navigator.pushNamed(context, "/selector");
     return currency;
   }
 

@@ -1,9 +1,8 @@
-import 'package:currency_converter/core/repositories/database/database.dart';
 import 'package:currency_converter/core/viewmodels/currency_view_model.dart';
-import 'package:currency_converter/ui/page/currency_selector_page.dart';
 import 'package:currency_converter/ui/page/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:currency_converter/ui/router.dart';
 
 void main() {
   runApp(
@@ -20,13 +19,14 @@ class CurrencyConverterApp extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return MaterialApp(
+      initialRoute: "/",
+      onGenerateRoute: AppRouter.generateRoute,
       title: 'Currency Converter',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.indigo[900],
+        primarySwatch: Colors.indigo,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage(),
-      debugShowCheckedModeBanner: false,
     );
   }
 }
