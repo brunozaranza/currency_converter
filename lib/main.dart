@@ -22,7 +22,7 @@ class CurrencyConverterApp extends StatelessWidget {
     return MaterialApp(
       title: 'Currency Converter',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.indigo[900],
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: HomePage(),
