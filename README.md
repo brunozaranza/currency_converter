@@ -1,16 +1,21 @@
-# currency_converter
+# Currency Converter
 
-A new test to BTG with Flutter o/
+Este projeto consiste no desenvolvimento de um app de conversão de moedas em Flutter
 
-## Getting Started
+##Objetivo
+O objetivo deste aplicativo é converter o valor de uma moeda para outra escolhidas pelo usuário.
 
-This project is a starting point for a Flutter application.
+## Omdb
+O app usa a API CurrencyLayer, um serviço parcialmente gratuito na web para obter informações de moedas e cotações, você pode ver mais em
+[currencylayer](https://currencylayer.com/documentation).
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Indicações para compilação
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Certifique-se de ter o ambiente Flutter preparado na sua máquina;
+- Clone este repositório;
+- Abra no Android Studio versão 4.1.1 (indicado) ou superior;
+
+## Autor
+
+* **Edson Bruno Zaranza** - [Bruno Zaranza](https://www.linkedin.com/in/edson-bruno-zaranza-2309431a/)
