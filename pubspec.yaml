@@ -1,0 +1,29 @@
+name: currency_converter
+description: A new test to BTG with Flutter o/
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+  http: ^0.12.2
+  connectivity: ^0.4.9+5
+  provider: ^4.3.2+3
+  shared_preferences: ^0.5.12+4
+  date_format: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
